@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".condicionesdeuso3">
+
+    <TextView
+        android:id="@+id/text_condiciones"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Terminos y condiciones"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="57dp" />
+
+    <ScrollView
+        android:layout_width="354dp"
+        android:layout_height="258dp"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="127dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/text_condicionesdeuso"
+        android:layout_width="338dp"
+        android:layout_height="232dp"
+        android:text="condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="146dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox_aceptarcondiciones"
+        android:layout_width="358dp"
+        android:layout_height="60dp"
+        android:text="Estoy de acuerdo con los terminos de condiciones"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="415dp" />
+
+    <Button
+        android:id="@+id/boton_aceptarcondiciones"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Acepto"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="508dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

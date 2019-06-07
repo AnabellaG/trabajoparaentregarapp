@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".acercade6">
+
+    <TextView
+        android:id="@+id/text_acercade"
+        android:layout_width="149dp"
+        android:layout_height="55dp"
+        android:text="Acerca de..."
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="29dp" />
+
+    <TextView
+        android:id="@+id/text_acercade1"
+        android:layout_width="251dp"
+        android:layout_height="269dp"
+        android:text="y text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop pub"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="143dp" />
+
+    <Button
+        android:id="@+id/boton_volveralhome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Volver al home"
+        tools:layout_editor_absoluteX="237dp"
+        tools:layout_editor_absoluteY="521dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
