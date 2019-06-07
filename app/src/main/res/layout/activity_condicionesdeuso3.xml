@@ -10,16 +10,29 @@
         android:id="@+id/text_condiciones"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="79dp"
+        android:layout_marginLeft="79dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="97dp"
+        android:layout_marginRight="97dp"
+        android:fontFamily="sans-serif-black"
         android:text="Terminos y condiciones"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        tools:layout_editor_absoluteX="79dp"
-        tools:layout_editor_absoluteY="57dp" />
+        android:textColor="#BE0027"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ScrollView
+        android:id="@+id/scrollView2"
         android:layout_width="354dp"
         android:layout_height="258dp"
-        tools:layout_editor_absoluteX="28dp"
-        tools:layout_editor_absoluteY="127dp">
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_condiciones">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -32,22 +45,39 @@
         android:layout_width="338dp"
         android:layout_height="232dp"
         android:text="condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_condiciones_"
-        tools:layout_editor_absoluteX="37dp"
-        tools:layout_editor_absoluteY="146dp" />
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="122dp" />
 
     <CheckBox
         android:id="@+id/checkBox_aceptarcondiciones"
         android:layout_width="358dp"
         android:layout_height="60dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginLeft="23dp"
+        android:layout_marginTop="43dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:fontFamily="sans-serif-black"
         android:text="Estoy de acuerdo con los terminos de condiciones"
-        tools:layout_editor_absoluteX="23dp"
-        tools:layout_editor_absoluteY="415dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView2" />
 
     <Button
         android:id="@+id/boton_aceptarcondiciones"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="161dp"
+        android:layout_marginLeft="161dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="162dp"
+        android:layout_marginRight="162dp"
+        android:background="#BE0027"
+        android:fontFamily="sans-serif-black"
         android:text="Acepto"
-        tools:layout_editor_absoluteX="161dp"
-        tools:layout_editor_absoluteY="508dp" />
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox_aceptarcondiciones" />
 </androidx.constraintlayout.widget.ConstraintLayout>
