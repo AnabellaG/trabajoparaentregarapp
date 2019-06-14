@@ -30,7 +30,7 @@ public class quienesomos5 extends AppCompatActivity {
         //referencio objetos
         boton_github = findViewById(R.id.boton_github);
         botonllamar = findViewById(R.id.botonllamar);
-        botonllamar = findViewById(R.id.boton_volver);
+        boton_volver = findViewById(R.id.boton_volver);
 
         //metodo boton volver al home
         boton_volver.setOnClickListener(new View.OnClickListener() {
