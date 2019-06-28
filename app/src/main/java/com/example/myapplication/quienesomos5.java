@@ -47,6 +47,8 @@ public class quienesomos5 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
+
+
                 Intent intent6 = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/anabellag"));
                 startActivity(intent6);
             }
